@@ -1,28 +1,56 @@
+
+//estilo titulo
+.titulo{
+  margin-top: 15px;
+  text-align:left;
+  color: white;
+  margin-top: 15px;
+  width: 100%;
+  height: fit-content;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+//resumen 
+.resumen{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+}
 //estilo barra menu
 .barra-menu {
     flex: 1 1 auto;
     background-color: rgb(65, 179, 247);
   }
 
+//HOJA ESTILO BOTONES IMPUT
+.formulario-ingreso {
+    min-width: 150px;
+    max-width: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20%;
+  }
+  
+  .cajas-input {
+    width: 100%;
+  }
+
+.ingresar-info .boton-ingresar{
+    margin: auto;
+    width: 100%;
+    background-color: rgb(65, 179, 247);
+}
+////////////////@at-root
+
 .espacio-barra{
-    width: 300px;
+  width: 300px;
+ 
 }
 
 .color-volver{
-    background-color: rgb(65, 179, 247);
+  background-color: rgb(65, 179, 247);
 }
 
-///////////////@at-root
-//estilo titulo
-.titulo{
-    text-align:center;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-  }
-  
-  .titulo1{
-    margin-top: 10%;
-    width: 100%;
-    height: 10%;
-  }
+ion-content{
+  --background: url('/assets/img/fondoxd.jpg') no-repeat 100% 100%;
+}

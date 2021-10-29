@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { PerfilAlumnoPageRoutingModule } from './perfil-alumno-routing.module';
+import { DocentePerfilPageRoutingModule } from './docente-perfil-routing.module';
 
-import { PerfilAlumnoPage } from './perfil-alumno.page';
+import { DocentePerfilPage } from './docente-perfil.page';
 import { AppModuleModule } from 'src/app/app-module.module';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { AppModuleModule } from 'src/app/app-module.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    PerfilAlumnoPageRoutingModule,
+    DocentePerfilPageRoutingModule,
     AppModuleModule
   ],
-  declarations: [PerfilAlumnoPage]
+  declarations: [DocentePerfilPage]
 })
-export class PerfilAlumnoPageModule {}
+export class DocentePerfilPageModule {}

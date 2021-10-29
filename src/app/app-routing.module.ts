@@ -34,7 +34,23 @@ const routes: Routes = [
   {
     path: 'escanear-qr',
     loadChildren: () => import('./pages/escanear-qr/escanear-qr.module').then( m => m.EscanearQRPageModule)
+  },  {
+    path: 'asignaturas-alum',
+    loadChildren: () => import('./pages/asignaturas-alum/asignaturas-alum.module').then( m => m.AsignaturasAlumPageModule)
   },
+  {
+    path: 'asignaturas-docente',
+    loadChildren: () => import('./pages/asignaturas-docente/asignaturas-docente.module').then( m => m.AsignaturasDocentePageModule)
+  },
+  {
+    path: 'alumno-perfil',
+    loadChildren: () => import('./pages/alumno-perfil/alumno-perfil.module').then( m => m.AlumnoPerfilPageModule)
+  },
+  {
+    path: 'docente-perfil',
+    loadChildren: () => import('./pages/docente-perfil/docente-perfil.module').then( m => m.DocentePerfilPageModule)
+  },
+
 ];
 
 @NgModule({

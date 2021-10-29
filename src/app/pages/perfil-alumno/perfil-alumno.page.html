@@ -2,7 +2,7 @@
   
 </ion-header>-->
 
-<ion-content>
+
 
   <!--BARRA DE MENU-->
   <mat-toolbar color="primary">
@@ -27,18 +27,18 @@
     <mat-tab label="Opcion 2"> Segunda </mat-tab>
     <mat-tab label="Opcion 3"> Tercera </mat-tab>
   </mat-tab-group>-->
-
-  <ion-toolbar class="titulo1">
+  <ion-content>
+  
     <ion-title class="titulo">Bienvenido Alumno</ion-title>
-  </ion-toolbar>
+  
 
 
   <!------------------------------------------------->
 
 
-  <ion-tabs>
+  <ion-tabs > 
     <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="asis">
+      <ion-tab-button routerLink="/asignaturas-alum" tab="asis">
         <ion-icon name="calendar"></ion-icon>
         <ion-label>Asistencias</ion-label>
         <ion-badge>1</ion-badge>
@@ -47,13 +47,11 @@
         <ion-icon name="camera"></ion-icon>
         <ion-label>Escanear QR</ion-label>
       </ion-tab-button>
-      <ion-tab-button tab="perfil">
+      <ion-tab-button routerLink="/alumno-perfil" tab="perfil">
         <ion-icon name="person-circle"></ion-icon>
         <ion-label>Perfil</ion-label>
       </ion-tab-button>
     </ion-tab-bar>
-
-   
   </ion-tabs>
  
   <!------------------------------------------------->
